@@ -92,7 +92,10 @@ else{
 		<!-- panel-body  -->
 	    <div class="panel-body">
 	    <form name="payment" method="post">
-	     <input type="radio" checked name="paymethod" value="Debit / Credit card"> Debit / Credit card <br /><br />
+	     <input type="radio" checked="checked" name="paymethod" value="Debit / Credit card"> Debit / Credit card <br> <input type="radio" name="paymethod" value="COD" > COD <br>
+	     <input type="radio" name="paymethod" value="Internet Banking"> Internet Banking
+		 <br> <br>
+	     
 		
 	<div class="row">
 	<div class="col-md-4">

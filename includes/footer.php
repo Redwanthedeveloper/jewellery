@@ -82,7 +82,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <span><a href="#">monir@gmail.com</a></span>
+                    <span><a href="#">bograonlineshop02@gmail.com</a></span>
                 </div>
 
                 

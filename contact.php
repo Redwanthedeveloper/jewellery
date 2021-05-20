@@ -119,13 +119,13 @@ header('location:my-wishlist.php');
                                 
                                     <div class="col-md-6">
                                 <h1 class="text-left" style="margin: 20px 0; ">
-                                Contact to our helpline or message 
+                                Contact our helpline or message 
                                     </h1>
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quia recusandae a commodi vel voluptates libero non voluptatibus perspiciatis, explicabo illum adipisci excepturi nisi placeat, enim autem laborum sint neque laboriosam, unde et. Deleniti tempora provident necessitatibus veniam voluptates quas dolores ducimus, ad, blanditiis voluptatibus, reiciendis unde eos dolorem tempore.
                         <br>
                         <br>
 
-                        <strong>+8801xxxxxxxx</strong> or <strong>monir@gmail.com</strong>
+                        <strong>09638879564</strong> or <strong>bograonlineshop02@gmail.com</strong>
                                     </div>
                                     <div class="col-md-6">
                                     <h3 class="text-left">Contact with us</h3>
