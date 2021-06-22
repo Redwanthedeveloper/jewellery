@@ -147,9 +147,10 @@ while($row=mysqli_fetch_array($sql))
 			</div><!-- /.sidebar -->
 <?php 
 $ret=mysqli_query($con,"select * from products where id='$pid'");
+
 while($row=mysqli_fetch_array($ret))
 {
-
+	
 ?>
 
 
@@ -228,8 +229,14 @@ while($row=mysqli_fetch_array($ret))
 
 					<div class='col-sm-6 col-md-7 product-info-block'>
 						<div class="product-info">
-							<h1 class="name"><?php echo htmlentities($row['productName']);?></h1>
-<?php $rt=mysqli_query($con,"select * from productreviews where productId='$pid'");
+							<h1 class="name"><?php echo htmlentities($row['productName']); 
+							
+							?></h1>
+							<h6>Total hits: <?php $view = $row['views'];
+							$ret=mysqli_query($con, "update products set views=$view+1 where id=$pid");
+							echo $view?></h6>
+<?php 
+$rt=mysqli_query($con,"select * from productreviews where productId='$pid'");
 $num=mysqli_num_rows($rt);
 {
 ?>		
