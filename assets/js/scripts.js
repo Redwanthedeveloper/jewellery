@@ -1,9 +1,3 @@
-const counter = document.querySelector('.counter');
-counter.addEventListener('onclick', function () {
-  const count = 0;
-  count += 1;
-  console.log(count);
-});
 (function ($) {
   'use strict';
   /*===================================================================================*/
