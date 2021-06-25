@@ -61,7 +61,7 @@ if(isset($_POST['submit']))
 	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/css/owl.transitions.css">
-		<link href="assets/css/lightbox.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/lightbox.css" >
 		<link rel="stylesheet" href="assets/css/animate.min.css">
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
@@ -147,7 +147,6 @@ while($row=mysqli_fetch_array($sql))
 			</div><!-- /.sidebar -->
 <?php 
 $ret=mysqli_query($con,"select * from products where id='$pid'");
-
 while($row=mysqli_fetch_array($ret))
 {
 	
